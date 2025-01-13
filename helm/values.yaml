@@ -1,0 +1,6 @@
+deployment:
+  imageUrl: 614019632196.dkr.ecr.us-east-1.amazonaws.com/expense/backend
+  imageVersion: IMAGE_VERSION
+  replicaset: 2
+configMap:
+  db_host: expense-dev.cl88squeyfof.us-east-1.rds.amazonaws.com
